@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gorozhanov.copmag.ApparatusMenu"
+    tools:showIn="@layout/app_bar_apparatus_menu">
+
+    <Button
+        android:id="@+id/floor_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floor"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <Button
+        android:id="@+id/hores_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORSE"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+</android.support.constraint.ConstraintLayout>
